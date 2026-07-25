@@ -1,0 +1,11 @@
+[
+  "tests/test_api.py::test_full_disruption_recovery_flow",
+  "tests/test_api.py::test_health_endpoint",
+  "tests/test_api.py::test_login_flow_and_protected_route",
+  "tests/test_impact_and_recovery.py::test_impact_assessment_produces_bounded_severity",
+  "tests/test_impact_and_recovery.py::test_recovery_agent_returns_three_ranked_plans",
+  "tests/test_simulator.py::test_advance_progresses_status_without_crash",
+  "tests/test_simulator.py::test_bootstrap_creates_flights_and_gates",
+  "tests/test_simulator.py::test_generate_disruption_returns_valid_disruption",
+  "tests/test_simulator.py::test_inject_delay_updates_flight"
+]

@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: airportos-config
+  namespace: airportos
+data:
+  SIMULATOR_FLIGHT_COUNT: "500"
+  SIMULATOR_GATE_COUNT: "90"
+  SIMULATOR_TICK_SECONDS: "2.0"
+  OPENAI_MODEL: "gpt-5"
+  CORS_ORIGINS: '["*"]'
+  KAFKA_ENABLED: "false"
+  KAFKA_BOOTSTRAP_SERVERS: "kafka.airportos.svc.cluster.local:9092"
